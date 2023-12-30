@@ -37,12 +37,12 @@ async def is_admins(chat_id: int):
 
 
 EMOJIOS = [ 
-      "❤",
-      "💖",
+      "🥀",
+      "🖤",
 ]
       
 START = f"""
-**๏ Hie Baby❣️ ๏**
+**๏ ʜᴇʏ ʙᴀʙʏ..**
 """
 
 @bot.on_message(filters.command(["start", "aistart", f"start@{BOT_USERNAME}"]))
@@ -51,15 +51,15 @@ async def restart(client, m: Message):
                 text = random.choice(EMOJIOS),
     )
     await asyncio.sleep(1)
-    await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠..")
+    await accha.edit("ꜱᴛᴀʀᴛɪɴɢ..")
     await asyncio.sleep(0.1)
-    await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠...")
+    await accha.edit("ꜱᴛᴀʀᴛɪɴɢ..")
     await asyncio.sleep(0.1)
-    await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠....")
+    await accha.edit("ꜱᴛᴀʀᴛɪɴɢ..")
     await asyncio.sleep(0.1)
-    await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐞𝐝.✓")
+    await accha.edit("ꜱᴛᴀʀᴛᴇᴅ..✓")
     await asyncio.sleep(0.2)
-    await accha.edit("𝙷ᴇʟʟᴏ ɢᴜʏs ᴛʜɪs ɪs ❥≛⃝🥀ᴀʟᴏɴᴇ ᴘʀᴏ ᴄᴏᴅᴇʀ』⃝⛓️❤️. ᴡʜɪᴄʜ ɪs ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏʀᴏɢʀᴀᴍ...ʏᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ʙᴏᴛ ɪɴ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴀs ᴀ ᴄʜᴀᴛ ʙᴏᴛ...sᴜᴘᴘᴏʀᴛ :- @AlonesHeaven ")
+    await accha.edit("ʜᴇʟʟᴏ ɢᴜʏꜱ ᴛʜɪꜱ ɪꜱ 𝗔𝗹𝗶𝗲𝗰 ~ 🤍. ᴡʜɪᴄʜ ɪs ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏʀᴏɢʀᴀᴍ...ʏᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ʙᴏᴛ ɪɴ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴀs ᴀ ᴄʜᴀᴛ ʙᴏᴛ...sᴜᴘᴘᴏʀᴛ :- @AliecSupport ")
        
 @bot.on_message(
     filters.command(["chatbot off", f"chatbot@{BOT_USERNAME} off"], prefixes=["/", ".", "?", "-"])
@@ -332,5 +332,5 @@ async def aloneprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print(f"❣️𝗔𝗟𝗢𝗡𝗘 𝗖𝗛𝗔𝗧𝗕𝗢𝗧💝𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗❣️ ")      
+print(f"@AliecAssociation ")      
 bot.run()
